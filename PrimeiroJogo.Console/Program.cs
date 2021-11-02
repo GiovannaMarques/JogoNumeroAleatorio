@@ -13,6 +13,11 @@ namespace PrimeiroJogo.ConsoleUI
             // Então, o programa verifica se o número digitado é igual ao número aleatório definido pelo programa
             // Se o usuário acertou, o jogo dá os parabéns e se o usuário errou o jogo informa o erro
             // Em seguida o jogo reinicia
+
+            Console.WriteLine("Bem vindo ao Jogo Aleatorio!\nEscolha um número aleatório de 0 a 10");
+            
+            int resposta = int.Parse(Console.ReadLine());
+            
         }
     }
 }
