@@ -14,15 +14,13 @@ namespace PrimeiroJogo.ConsoleUI
             // Se o usuário acertou, o jogo dá os parabéns e se o usuário errou o jogo informa o erro
             // Em seguida o jogo reinicia
 
-            Console.WriteLine("Bem vindo ao Jogo Aleatorio!\nEscolha um número aleatório de 0 a 10");
-            
-            int inputDoUsuario = int.Parse(Console.ReadLine());
-            System.Console.WriteLine($"O número é: {inputDoUsuario}");
-            
-            //var input = Console.ReadLine();
-            //Console.WriteLine($"O número escolhido foi: {input}");
+            Console.WriteLine("Bem vindo ao Jogo Aleatorio!\nEscolha um número aleatório de 1 a 10");
 
-            // int resposta = int.Parse(Console.ReadLine());
+            int resposta = int.Parse(Console.ReadLine());
+            Random random = new Random();
+            int numero = random.Next(1, 10);
+
+
 
         }
     }
