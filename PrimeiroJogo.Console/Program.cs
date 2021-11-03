@@ -16,8 +16,14 @@ namespace PrimeiroJogo.ConsoleUI
 
             Console.WriteLine("Bem vindo ao Jogo Aleatorio!\nEscolha um número aleatório de 0 a 10");
             
-            int resposta = int.Parse(Console.ReadLine());
+            int inputDoUsuario = int.Parse(Console.ReadLine());
+            System.Console.WriteLine($"O número é: {inputDoUsuario}");
             
+            //var input = Console.ReadLine();
+            //Console.WriteLine($"O número escolhido foi: {input}");
+
+            // int resposta = int.Parse(Console.ReadLine());
+
         }
     }
 }
