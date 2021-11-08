@@ -17,8 +17,7 @@ namespace PrimeiroJogo.ConsoleUI
             Random random = new Random();
             int numero = random.Next(1, 10);
 
-            int parar = 1;
-            while (parar < 2)
+            while (true)
             {
                 Console.WriteLine("Escolha um número de 1 a 10");
                 int resposta = int.Parse(Console.ReadLine());
@@ -26,7 +25,7 @@ namespace PrimeiroJogo.ConsoleUI
                 if (numero == resposta)
                 {
                     Console.WriteLine($"Parabéns você ganhou, o número era {numero}");
-                    parar = 30;
+                    break;
                 }
                 else
                 {
