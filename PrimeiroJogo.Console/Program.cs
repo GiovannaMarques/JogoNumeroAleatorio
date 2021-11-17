@@ -16,20 +16,30 @@ namespace PrimeiroJogo.ConsoleUI
             Console.WriteLine("Bem vindo ao Jogo Aleatorio!");
             Random random = new Random();
             int numero = random.Next(1, 10);
+            int chances = 5;
 
             while (true)
             {
                 Console.WriteLine("Escolha um número de 1 a 10");
                 int resposta = int.Parse(Console.ReadLine());
-                
+
                 if (numero == resposta)
                 {
                     Console.WriteLine($"Parabéns você ganhou, o número era {numero}");
                     break;
                 }
-                else
+                else 
                 {
-                    Console.WriteLine($"Você errou. O número era {numero}");
+                    chances = chances -1;
+                    if (chances > 0)
+                    {
+                        Console.WriteLine($"Você errou, você tem mais {chances} chances");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Suas chances acabaram, o número era {numero}");
+                        break;
+                    }
                 }
             }
         }
