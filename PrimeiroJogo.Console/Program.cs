@@ -31,9 +31,9 @@ namespace PrimeiroJogo.ConsoleUI
                 while (true)
                 {
                     Console.WriteLine("Escolha um número de 1 a 10");
-                    int resposta = int.Parse(Console.ReadLine());
+                    string resposta = Console.ReadLine(); // Melhoramos aqui!!!
 
-                    if (numero == resposta)
+                    if (numero.ToString() == resposta)
                     {
                         Console.WriteLine($"Parabéns você ganhou, o número era {numero}");
                         break;
@@ -64,9 +64,9 @@ namespace PrimeiroJogo.ConsoleUI
                 while (true)
                 {
                     Console.WriteLine("Escolha um número de 1 a 15");
-                    int resposta = int.Parse(Console.ReadLine());
+                    int resposta = int.Parse(Console.ReadLine()); // ESQUECEMOS DE CORRIGIR AQUI
 
-                    if (numero == resposta)
+                    if (numero == resposta) // E AQUI TAMBÉM
                     {
                         Console.WriteLine($"Parabéns você ganhou, o número era {numero}");
                         break;
@@ -98,9 +98,9 @@ namespace PrimeiroJogo.ConsoleUI
                 while (true)
                 {
                     Console.WriteLine("Escolha um número de 1 a 20");
-                    int resposta = int.Parse(Console.ReadLine());
+                    int resposta = int.Parse(Console.ReadLine()); // E AQUI TAMBÉM
 
-                    if (numero == resposta)
+                    if (numero == resposta) // E AQUI TAMBÉM
                     {
                         Console.WriteLine($"Parabéns você ganhou, o número era {numero}");
                         break;
