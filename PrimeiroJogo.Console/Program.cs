@@ -6,7 +6,7 @@ namespace PrimeiroJogo.ConsoleUI
     {
         static void Main(string[] args)
         {
-            // Iniciase o Jogo, Bem vindo!
+            // Inicia-se o Jogo, Bem vindo!
             // Escolher o nível
             // Dar orientações e solicitar o número aleatório
             // Então o jogo pede para que o usuário digite um número
