@@ -18,6 +18,9 @@ namespace PrimeiroJogo.ConsoleUI
             // 
             // Em seguida o jogo reinicia
 
+            // A Giovanna quer a nova funcionalidade aqui!!
+            Jogar();
+
             Console.WriteLine("Bem vindo ao Jogo Aleatorio!\n Escolha um nivél!\n F - Fácil\n M - Médio\n D - Dificil");
             string nivel = Console.ReadLine();
 
@@ -53,6 +56,9 @@ namespace PrimeiroJogo.ConsoleUI
                     }
                 }
             }
+
+            // O gerente quer a nova funcionalidade aqui também
+            Jogar();
 
             if (nivel == "m" || nivel == "M")
             {
@@ -121,6 +127,18 @@ namespace PrimeiroJogo.ConsoleUI
                     }
                 }
             }
+        }
+    
+        // Daqui pra baixo, vamos escrever o método Jogar!
+        
+        // Retorno NomeDoMetodo(){}
+
+        // Caixinha que contém funcionalidades criadas pelo Matheus
+        static void Jogar()
+        {
+            Console.WriteLine("Aqui está começando");
+            Console.WriteLine("Vamos jogar???");
+            Console.WriteLine("Amanhã já é sexta!!!");
         }
     }
 }
