@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroJogo.Console", "..\PrimeiroJogo.Console\PrimeiroJogo.Console.csproj", "{61FC5F14-05DE-445D-9ED9-E094CE98E1DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroJogo.Console", "PrimeiroJogo.Console\PrimeiroJogo.Console.csproj", "{F7463B70-EDE1-4F05-A601-7D3D8796C115}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{61FC5F14-05DE-445D-9ED9-E094CE98E1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61FC5F14-05DE-445D-9ED9-E094CE98E1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61FC5F14-05DE-445D-9ED9-E094CE98E1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61FC5F14-05DE-445D-9ED9-E094CE98E1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7463B70-EDE1-4F05-A601-7D3D8796C115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7463B70-EDE1-4F05-A601-7D3D8796C115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7463B70-EDE1-4F05-A601-7D3D8796C115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7463B70-EDE1-4F05-A601-7D3D8796C115}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
