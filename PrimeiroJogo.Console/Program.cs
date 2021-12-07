@@ -11,16 +11,19 @@ namespace PrimeiroJogo.ConsoleUI
 
             if (nivel == "F" || nivel == "f")
             {
+                Console.WriteLine("Você escolheu o nível Fácil!");
                 Jogar(5, 1, 10);
             }
 
             if (nivel == "m" || nivel == "M")
             {
+                Console.WriteLine("VocÊ escolheu o nível Médio!");
                 Jogar(4, 1, 15);
             }
 
             if (nivel == "d" || nivel == "D")
             {
+                Console.WriteLine("VocÊ escolheu o nível Dificil!");
                 Jogar(3, 1, 20);
             }
         }
@@ -29,11 +32,11 @@ namespace PrimeiroJogo.ConsoleUI
         {
             Random random = new Random();
             int numero = random.Next(menorNumeroPossivel, maiorNumeroPossivel);
-            Console.WriteLine("Você escolheu o nível Fácil!");
+
 
             while (true)
             {
-                Console.WriteLine("Escolha um número de 1 a 10");
+                Console.WriteLine($"Escolha um número de {menorNumeroPossivel} a {maiorNumeroPossivel}");
                 string resposta = Console.ReadLine();
 
                 if (numero.ToString() == resposta)
